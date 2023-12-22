@@ -1,0 +1,33 @@
+// tqto jangan diapus buat credit sc
+
+case 'tqto': {
+  let tqtonya = `
+  _*TERIMA KASIH KEPADA*_
+
+  *• ALLAH SWT*
+  *• NABI MUHAMMAD SAW*
+  *• MY PARENTS*
+  *• Andrian ( Author )*
+  *• RiellGans ( Kang Recode )*
+  *• Nanacans ( My GF🤍 )
+  *• Qyuunee (Sc ori) 
+  *• LoL-Human ( kang Rest APIs )*
+  *• Para Penyedia Module*
+  *• Para Donatur*
+  `;
+  conn.sendMessage(m.chat, {
+    text: tqtonya,
+    contextInfo: {
+      externalAdReply: {
+        showAdAttribution: true, 
+        title: `${ucapanWaktu} ${pushname}`,
+        body: 'NanaCans',
+        thumbnailUrl: "https://telegra.ph/file/4dafc06a9ee73c3a0165d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/C68GTa5NkLHGeDO59VP4Jn",
+        mediaType: 1,
+        renderLargerThumbnail: true
+      }
+    }
+  })
+}
+break
